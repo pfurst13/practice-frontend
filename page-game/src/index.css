@@ -1,0 +1,77 @@
+#root {
+  display: inline-block;
+  
+}
+
+/* Main css */
+
+#main-container {
+  overflow: hidden;
+  background-color: darkslategrey;
+}
+
+#main-container a {
+  float: left;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#main-container a:hover {
+  background-color: white;
+  color: black;
+}
+
+/* admin css */
+
+
+
+#create-container{
+  display: flex;
+  gap: 10px;
+  text-align: center;
+  background-color: lightgray;
+
+}
+
+#input-box{
+  display: flex;
+  flex-direction: column;
+}
+
+.option {
+  display: flex;
+  gap: 5px;
+}
+
+.option div{
+  display: flex;
+  flex-direction: column;
+}
+
+#button {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.list-container ul {
+  list-style-type: none;
+  background-color: lightgray;
+}
+
+.list-item {
+  display: flex;
+  gap: 10px;
+  width: 300px;
+  height: 20px;
+  align-items: center;
+}
+
+.white{
+  background-color: white;
+}
+
+.lightgray{
+  background-color: lightgray;
+}
